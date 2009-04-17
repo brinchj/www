@@ -11,6 +11,10 @@ function loadContext() {
     if (path.indexOf("?") > 0) {
         document.getElementById("right").innerHTML="loading..";
         path = path.substring(path.indexOf("?")+1);
+        if (path == "overview") {
+            location.href="index.html";
+        }
+
         url = "sections/" + path + ".html?" + Math.random();
         var req = new XMLHttpRequest();
         req.open("GET", url, true);
