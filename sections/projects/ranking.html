@@ -1,0 +1,47 @@
+<h3>Image Ranking using Group Ranking methods</h3>
+<h4>Bachelor Thesis</h4>
+
+<div>
+<h5>Author(s): Johan Brinch</h5>
+<h5>Supervisor(s): David Pisinger</h5>
+<h5>Link: <a href=" http://zerrez.s3.amazonaws.com/papers/brinchj-2008_image_ranking.pdf">
+    brinchj-2008_image_ranking.pdf</a></h5>
+</div>
+
+<br/>
+
+<div>
+<h4>Abstract</h4>
+I give a detailed description of how the PageRank method and the Close Rankings method
+can be used to rank images in a much more dynamic way than the currently used Average-Point 
+method. I show how the Close Rankings method can be used to rank images using
+both user rankings and vote relevance.
+<br/><br/>
+I introduce the Newcomer's Rush scenario and show how all three methods are aected
+by this problem. Furthermore I give a workaround that relaxes the eects of Newcomer's
+Rush.
+<br/><br/>
+When researching the PageRank method, I discovered a simple proof that the recursive
+computations used to solve the method converge, something that was not in (Page, 1999).
+I give a short description of the proof and show that the normalization described in the
+pseudocode in (Page, 1999) is unnecessary when dealing with the Random-Surfer model.
+<br/><br/>
+I show that the Close Rankings method has a problem with the way it compares votes,
+which implies that it might go in the complete opposite direction of what was intented
+without being punished. I propose a simple change in the objective function of the optimization 
+problem which fixes this problem.
+<br/><br/>
+I show how the problem produced by the Close Rankings method can be solved using
+the Subgradient method combined with Golden Section Search.
+</div>
+
+<br/>
+
+<div>
+<h5>Keywords</h5>
+<small>
+image ranking, group ranking, average point, page rank, close rankings, weights, normalization,
+rank reversal, optimisation, golden section search, subgradient method
+</small>
+
+
