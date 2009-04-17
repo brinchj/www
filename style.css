@@ -81,7 +81,7 @@ margin-top: 10px;
 width: 160px;
 float: left;
 }
-#left h1 { border-bottom: 1px dotted #aaa; color: #666; margin: 14px 0 7px 0; font-weight: 100; font-size: 22px; letter-spacing: -1px;}
+#left h1 { border-bottom: 1px dotted #aaa; color: #666; line-height: 22px; margin: 14px 0 7px 0; font-weight: 100; font-size: 22px; letter-spacing: -1px;}
 #left h2 { color: #666; margin: 0; padding: 0px; font-size: 15px; letter-spacing: -1px;}
 
 #left ul { list-style-type: none; padding: 0px 0 0px 0; }

@@ -20,3 +20,6 @@ done
 echo "upload new version.."
 ssh brok.diku.dk rm -rf /vol/www/hjemmesider/studerende/zerrez/*
 scp -r ../build/* brok.diku.dk:~/www/
+
+echo "disk usage:"
+ssh brok.diku.dk "du -sh /vol/www/hjemmesider/studerende/zerrez/"
