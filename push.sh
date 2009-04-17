@@ -1,6 +1,8 @@
 echo "remove old version.."
 rm -vrf ../build/* 
 
+python sitemap.py
+
 echo "copy new version.."
 for t in css js png html; do
     for i in `find . -iname "*.$t"`; do   
