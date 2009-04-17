@@ -1,13 +1,13 @@
 echo "remove old version.."
-rm -vrf ../build/* 
+rm -rf ../build/* 
 
 python sitemap.py
 
 echo "copy new version.."
-for t in css js png html; do
+for t in css js png html txt; do
     for i in `find . -iname "*.$t"`; do   
-        mkdir -vp ../build/`dirname $i`;
-        cp -v $i ../build/$i
+        mkdir -p ../build/`dirname $i`;
+        cp $i ../build/$i
     done
 done
 

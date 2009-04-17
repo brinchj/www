@@ -20,5 +20,7 @@ for link in RE_LINK.findall(html):
     print 'adding:', link
     links.append((URL + link, modified(link)))
 
-file('sitemap.lst','w').write('\n'.join([ '%s\tlastmod=%s' % link for link in links]))
+file('sitemap.txt','w').write('\n'.join(
+    [ '%s\tlastmod=%s' % link for link in links]))
+
 print 'links:', len(links)
