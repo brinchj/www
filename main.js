@@ -17,13 +17,13 @@ function recvContext(req) {
 function loadContext() {
     path = location.href;
     if (path.indexOf("?") < 0) {
-        path = '?overview';
+        path = '?personal/contact';
     }
 
     document.getElementById("right").innerHTML="loading..";
     path = path.substring(path.indexOf("?")+1);
 
-    url = "sections/" + path + ".html?" + Math.random();
+    url = "sections/" + path + ".html";
     var req = new XMLHttpRequest();
     req.open("GET", url, true);
     req.onreadystatechange = function() {recvContext(req)};

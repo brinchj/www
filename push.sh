@@ -7,7 +7,13 @@ echo "copy new version.."
 for t in css js png html txt; do
     for i in `find . -iname "*.$t"`; do   
         mkdir -p ../build/`dirname $i`;
-        cp $i ../build/$i
+        if [ $t == "html" ]; then
+            cat header.html >> ../build/$i;
+            cat $i >> ../build/$i;
+            cat footer.html >> ../build/$i;
+        else
+            cp $i ../build/$i;
+        fi
     done
 done
 

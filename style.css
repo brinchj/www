@@ -10,15 +10,12 @@ font-size: 13px;
 padding: 0;
 margin: 0;
 color: #444;
-line-height: 17px;
+line-height: 15px;
 }
 
 img { border: none; }
 a { color: #666; }
 a:hover { text-decoration: none; color : #000000; }
-h3 { border-bottom: 1px dotted #aaa; color: #666; padding-bottom: 4px; margin: 14px 0 7px 0; font-weight: 100; font-size: 22px; letter-spacing: -1px;}
-h3 a { text-decoration: none; font-size: 22px; letter-spacing: -1px; }
-h3 a:hover { color: #333; }
 
 #wrap {
 background: #eee;
@@ -27,9 +24,11 @@ width: 780px;
 margin: 0 auto;
 }
 
+
+
 #header {
 height: 180px;
-background: #fff url(images/header.png) no-repeat;
+background: #fff url(http://diku.dk/hjemmesider/studerende/zerrez/images/header.png) no-repeat;
 }
 #header h1 {
 font-size: 38px;
@@ -58,6 +57,8 @@ text-align: right;
 padding: 0 20px;
 }
 
+
+
 #right {
 margin-top: 10px;
 width: 560px;
@@ -65,18 +66,29 @@ float: right;
 font-size: 12px;
 text-align: justify;
 }
-#right h3 { border-bottom: 1px dotted #6C91FC; }
+#right h1 { border-bottom: 1px dotted #aaa; color: #666; line-height: 22px; margin: 14px 0px 7px 0px; font-weight: 100; font-size: 22px; letter-spacing: -1px;}
+#right h2 { color: #666; margin: 0; padding: 0px; font-size: 15px; letter-spacing: -1px;}
+#right h3 { color: #666; margin: 0; padding: 0px; font-size: 11px; letter-spacing: -1px;}
+
+#right ul { list-style-type: none; padding: 0px 0 0px 0; }
+#right ul li { padding: 1px 0 1px 0; }
+#right ul li a { color: #666; font-weight: 100; text-decoration: none; font-size: 12px; }
+#right ul li a:hover { color : #333; }
+
 
 #left {
 margin-top: 10px;
 width: 160px;
 float: left;
 }
-#left h3 { color: #666; }
-#left ul { list-style-type: none; padding: 10px 0 10px 0; }
+#left h1 { border-bottom: 1px dotted #aaa; color: #666; margin: 14px 0 7px 0; font-weight: 100; font-size: 22px; letter-spacing: -1px;}
+#left h2 { color: #666; margin: 0; padding: 0px; font-size: 15px; letter-spacing: -1px;}
+
+#left ul { list-style-type: none; padding: 0px 0 0px 0; }
 #left ul li { padding: 2px 0 3px 0; }
-#left ul li a { color: #666; font-weight: 100; display: block; text-decoration: none; font-size: 14px; border-bottom: 1px dotted #aaa; }
+#left ul li a { color: #666; font-weight: 100; display: block; text-decoration: none; font-size: 14px; }
 #left ul li a:hover { color : #333; }
+
 
 #footer {
 font-size: 11px;
@@ -94,3 +106,10 @@ color: #999;
 color: #000; 
 text-decoration: underline; 
 }
+
+
+
+h4, h5 {
+    padding: 0;
+    margin: 0;
+} 
