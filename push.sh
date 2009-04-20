@@ -25,7 +25,7 @@ done
 echo "upload new version.."
 ssh brok.diku.dk "mkdir ~/www_new"
 scp -r ../build/* brok.diku.dk:~/www_new/
-ssh brok.diku.dk "rm -rfv $WEB_PATH/* && mv ~/www_new/* $WEB_PATH && rmdir ~/www_new"
+ssh brok.diku.dk "rm -rf $WEB_PATH/* && mv ~/www_new/* $WEB_PATH && rmdir ~/www_new"
 
 
 echo "disk usage:"
