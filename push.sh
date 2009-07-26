@@ -3,12 +3,12 @@
 WEB_PATH=/vol/www/hjemmesider/studerende/zerrez
 
 
-echo "remove old version.."
+echo ">> remove old version.."
 rm -rf ../build/* 
 
 python sitemap.py
 
-echo "copy new version.."
+echo ">> copy new version.."
 for t in css js png html txt; do
     for i in `find . -iname "*.$t"`; do   
         mkdir -p ../build/`dirname $i`;
@@ -22,11 +22,14 @@ for t in css js png html txt; do
     done
 done
 
-echo "upload new version.."
+#echo ">> update zerrez @ appspot.."
+#appcfg.py update --email zerrez@gmail.com --no_cookies gapp || exit -1
+
+echo ">> update zerrez @ diku.."
 ssh brok.diku.dk "mkdir ~/www_new"
 scp -r ../build/* brok.diku.dk:~/www_new/
 ssh brok.diku.dk "rm -rf $WEB_PATH/* && mv ~/www_new/* $WEB_PATH && rmdir ~/www_new"
 
 
-echo "disk usage:"
+echo ">> disk usage:"
 ssh brok.diku.dk "du -sh $WEB_PATH"

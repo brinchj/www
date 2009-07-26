@@ -1,5 +1,7 @@
-http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/contact.html	lastmod=2009-04-17T18:24:23
-http://diku.dk/hjemmesider/studerende/zerrez/sections/projects/roots.html	lastmod=2009-04-17T18:19:02
-http://diku.dk/hjemmesider/studerende/zerrez/sections/projects/music.html	lastmod=2009-04-17T18:10:25
-http://diku.dk/hjemmesider/studerende/zerrez/sections/projects/ranking.html	lastmod=2009-04-17T18:16:29
-http://diku.dk/hjemmesider/studerende/zerrez/sections/other/links.html	lastmod=2009-04-17T18:30:29
+http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/resume.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/projects/roots.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/projects/ranking.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/other/links.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/courses.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/projects/music.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/contact.html

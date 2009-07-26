@@ -1,0 +1,12 @@
+application: zerrez-sandbox
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /
+  script: index.py
+- url: /googlea9115ddfa7889989.html
+  script: index.py
+- url: /static
+  static_dir: static

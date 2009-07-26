@@ -4,14 +4,45 @@
 <ul>
 <li>Author(s): Johan Brinch</li>
 <li>Supervisor(s): Jakob Grue Simonsen</li>
-<!-- <li>Link: <a href="#"/>paper.pdf</a></li> -->
+<li>Link:
+  <a href="http://zerrez-sandbox.appspot.com/static/papers/brinchj-2009_roots.pdf">brinchj-2009_roots.pdf</a>
+[
+  <a href="http://www.scribd.com/doc/17522857/Experimental-Verification-of-the-Random-Character-of-Algebraic-Irrationals"
+  rel="external">preview</a> ] </li>
 </ul>
 </div>
 
 <br/>
 
 <div>
-  <h2>Status: Currently in progress; ETA: 12th of June</h2>
+  <h3>Abstract:</h3>
+I investigate the normality of algebraic irrational numbers, specifically by
+analyzing their chi^2, nabla^2chi^2 and Kolmogorov-Smirnov
+  distributions.
+<br/><br/>
+    I analyze 39 Pisot numbers, 47 Salem numbers and the roots of 15 randomly
+generated polynomials with integer coefficients, all computed to 5 bases with
+a precision of 2 * 3^18 approx 2^29.5 bits (about 233 million
+decimals).
+<br/><br/>
+    I show that the frequencies of the digit sequences tested are equidistributed
+with a confidence value of 5%. Specifically, digit sequences of size 10 in bases
+2 and 3, size 7 in base 5, size 6 in base 7 and size 5 in base 10 are equally
+frequent. This result is true for all 101 numbers. I show that no pattern can
+be found in the statistical anomalies and that only few anomalies survive a
+prefix size of 2 * 3^18 approx 2^29.5 .
+<br/><br/>
+    The results lend credence to Borel's conjecture that all algebraic irrationals
+are normal in all bases.
+<br/><br/>
+    Furthermore, popular root finding algorithms are discussed and their per-
+formance when computing roots to arbitrary precision compared. Specifically,
+I give a comparison of Newton's, Laguerre's and Gupta-Mittal's methods
+using MPSolve as reference. The results show that Newton's and Laguerre's
+methods are much faster than the competition. Gupta-Mittal is shown to
+reduce to the classical Power Method, faster than MPsolve, but much slower
+than Newton's and Laguerre's methods. Gupta-Mittal appears to be unsuited,
+while Laguerre's method shows great performance.
 </div>
 
 <br/>
@@ -19,7 +50,7 @@
 <div>
 <h3>Keywords</h3>
 <small>
-algebraic, normal, polynomial, roots, power method, laguerre, statistics, chi square, 
+algebraic, normal, polynomial, roots, power method, laguerre, statistics, chi square,
 pisot numbers, salem numbers, monic polynomials, multiple roots
 </small>
 </div>

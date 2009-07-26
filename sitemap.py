@@ -13,7 +13,7 @@ pages = ['footer.html'] + find_pages(['./sections'])
 
 
 URL = 'http://diku.dk/hjemmesider/studerende/zerrez/'
-RE_LINK = re.compile(r'<a\s+href="((http://[^z"]+/zerrez/[^"]+)|(http://zerrez.s3.amazonaws.com/[^"]+))"')
+RE_LINK = re.compile(r'<a\s+href="(http://[^z"]+/zerrez/[^"]+)"')
 
 print 'updating sitemap.html ..'
 
@@ -31,11 +31,11 @@ def modified(link):
 links = set()
 for p in pages:
     html  = file(p).read()
-    for link,_,_ in RE_LINK.findall(html):
+    for link in RE_LINK.findall(html):
         print 'adding:', link
         links.add((link, modified(link)))
 
 file('sitemap.txt','w').write('\n'.join(
-    [ '%s %s' % link for link in links]))
+    [ '%s' % link[0] for link in links]))
 
 print 'links:', len(links)
