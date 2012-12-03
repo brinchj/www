@@ -1,8 +1,8 @@
-http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/recommendations.html
-http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/contact.html
-http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/courses.html
 http://diku.dk/hjemmesider/studerende/zerrez/sections/other/links.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/courses.html
 http://diku.dk/hjemmesider/studerende/zerrez/sections/projects/ranking.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/contact.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/recommendations.html
 http://diku.dk/hjemmesider/studerende/zerrez/sections/projects/music.html
-http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/resume.html
 http://diku.dk/hjemmesider/studerende/zerrez/sections/projects/roots.html
+http://diku.dk/hjemmesider/studerende/zerrez/sections/personal/resume.html
