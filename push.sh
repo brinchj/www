@@ -1,9 +1,9 @@
 #!/bin/zsh
 
-WEB_PATH=/vol/www/hjemmesider/studerende/zerrez
+WEB_PATH=/var/www-johanbrinch
 BUILD=_build
 
-HOST=zerrez@brok.diku.dk
+HOST=jos@johanbrinch.com
 TARGET="~/www_new"
 
 
@@ -30,10 +30,10 @@ done
 #echo ">> update zerrez @ appspot.."
 #appcfg.py update --email zerrez@gmail.com --no_cookies gapp || exit -1
 
-echo ">> update zerrez @ diku.."
+echo ">> update ${HOST}.."
 ssh ${HOST} "mkdir ${TARGET}"
 scp -r ${BUILD}/* ${HOST}:${TARGET}
-ssh ${HOST} "rm -rf $WEB_PATH/* && mv ${TARGET}/* $WEB_PATH && rmdir ${TARGET}"
+ssh ${HOST} "rm -rf ${WEB_PATH}/* && mv ${TARGET}/* ${WEB_PATH} && rmdir ${TARGET}"
 ssh ${HOST} "chmod -Rv uo+r ${WEB_PATH}"
 
 
