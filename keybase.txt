@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/brinchj
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://johanbrinch.com
+  * I am brinchj (https://keybase.io/brinchj) on keybase.
+  * I have a public key with fingerprint E0B5 1271 F515 BF55 0037  71C3 D1D0 5EF1 0654 067A
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "e0b51271f515bf55003771c3d1d05ef10654067a",
+            "host": "keybase.io",
+            "key_id": "d1d05ef10654067a",
+            "uid": "75edb2f6a446445a7c408bee050ebe00",
+            "username": "brinchj"
+        },
+        "service": {
+            "hostname": "johanbrinch.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412025279,
+    "expire_in": 157680000,
+    "prev": "0bed7f58c080b93088298e524a738298b2813c5229c3863db4e0a171ae8abfce",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yML4AnicO8LLzMDFePFC3Ee2ELYqxtMHPpcyhGie3l+tlJSfUqlkVa2UnQqm0jLz
+0lOLCooy80qUrJRSDZJMDY3MDdNMDU2T0kxNDQyMzc0Nk41TDFMMTFPTDA3MTE0M
+zMwTlXSUMvKLQTqAxiQlFqfqZeYDxYCc+MwUoCgW9aVgCXPT1JQkozSzRBMTMxMT
+00TzZBMDi6TUVANTg9SkVAMDkMLi1KK8xNxUoOokoLOSM7KUanWUgIJlmcmpICeD
+bIYqyMrPSMyDqNJLzs8F6i4oyi/JT87PAUpmlJQUWIH0llQWgBSXpybFQ42JT8rM
+SwH6HKihLLWoODM/T8nKEKgyuSQTZK6hiaGRgZGpkbmljlJqRUFmUWp8JkiFqbmZ
+hQEQgKxJLQMaaZCUmmKeZmqRbGBhkGRpbGBhYWRpkWpqZJJobgxiJhlZGBonmxoZ
+WSYbW5gZpySZpBokGpobJqZaJCalAb0D8lhhXr6SlQnQmYnpQCOLM9PzEktKi1KV
+ag8djGFhYORiYGNlAsUdAxenACxGf6by/9O7/jXRPmDqxaUbTm6Z6ZPQtcT35Q8R
+bZ56iYUJG3fM3qq7b2sQV+PZ7ydvPQ3YULmtol9XTCSpU7/nq/mxzKObdlRE9blf
+MHnboDY3m+0vg3DqI9WF3Npuk8yVNNze7FozOdy+qI/9w8pNR/bea3pitvVt3+5j
+wsKzD1zVPVnaGjfd4sdnCwFerZ+WS16ln3QLqVuae+qrqkWL6s+Ady+zdq5eM/Nr
+y+aZT62tQ6X1JzDPmbF10YXeaZOVtU/aPMq74tz3XknxP/PiqCeipsxlt3b1vW04
+sSHqralWb8Kxf+y1qZ2X0uQU49R+vyu/I/PiwxTH8FaDneHa1c3XeJYsWG+YlXLA
+y2Gy7m/RJ8HsOoH3DDZlfZl9J0N+2gkhubXilxImPKqrTw1JCWC1irLONEra1963
+fpnSOYsjHyOWz3lZd1TRsES0jm3mUtulLme/S1z6X/zZ4MGRUteG1n8ubv5VR9Qz
+g08+FZ0xb3NmftRK6YB/Kgu6ldZa82dNPCs/p3OF+aHooIV//7PUGDVsUhViLZpR
+ruiqZsOUve9wTvWpjMOzH/Ny92w+cndl139Vnfnf3PmSHm67yfHW9WKA+RNNv6DK
+m8et5r10ucDGey/W/EiemOI5V+Grryp/lj1VP3uXaTnrF9VzkybF/s59PH++eWrs
+xklS5+49kt7AabX9QcDLLVm1QV/0jNlOnpvE/6toqV1iwy7fE44AhOmWMA==
+=Q0+P
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brinchj
+
+==================================================================
