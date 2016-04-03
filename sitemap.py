@@ -12,8 +12,8 @@ def find_pages(dirs):
 pages = ['footer.html'] + find_pages(['./sections'])
 
 
-URL = 'http://diku.dk/hjemmesider/studerende/zerrez/'
-RE_LINK = re.compile(r'<a\s+href="(http://[^z"]+/zerrez/[^"]+)"')
+URL = 'https://johanbrinch.com'
+RE_LINK = re.compile(r'<a\s+href="(/[^"]+)"')
 
 print 'updating sitemap.html ..'
 
@@ -23,8 +23,8 @@ def to_file(link):
 
 def modified(link):
     lastmod = None
-    if 'zerrez/sections' in link:
-        lastmod = datetime.fromtimestamp(os.stat(link[link.index('zerrez/sections/')+7:]).st_mtime).isoformat()
+    if '/sections' in link:
+        lastmod = datetime.fromtimestamp(os.stat(link.strip('/')).st_mtime).isoformat()
     return lastmod and 'lastmod=%s' % lastmod or ''
 
 
@@ -36,6 +36,6 @@ for p in pages:
         links.add((link, modified(link)))
 
 file('sitemap.txt','w').write('\n'.join(
-    [ '%s' % link[0] for link in links]))
+    [ '%s/%s' % (URL, link[0].strip('/')) for link in links]))
 
 print 'links:', len(links)
