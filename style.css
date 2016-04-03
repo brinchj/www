@@ -37,7 +37,7 @@ dd {
 
 #header {
     height: 180px;
-    background: #fff url(http://diku.dk/hjemmesider/studerende/zerrez/images/header.png) no-repeat;
+    background: #fff url(/images/header.png) no-repeat;
 }
 #header h1 {
     font-size: 38px;
